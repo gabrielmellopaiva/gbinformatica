@@ -9,18 +9,9 @@
     <title>gbinformatica.com</title>
 </head>
 <body>
-    <header>
-        <nav class="navigation">
-            <a href="#"><img src="logo.png" alt="Logo da iPhone" class="Logo"></a>
-            <ul>
-                <li><a href="homehtml.html">Home</a></li>
-                <li><a href="produtoshtml.html" class="check">Produtos</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="contatohtml.html">Contato</a></li>
-                <li><a href="loginhtml.html">Entrar</a></li>
-            </ul>    
-        </nav>
-    </header>
+<?php
+    include('menu.php');
+   ?>
     <main>
     <section>
         <h1>Categorias</h1>
